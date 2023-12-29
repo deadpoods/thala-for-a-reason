@@ -1,0 +1,120 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    font-size: 2em;
+    /* Adjusted font size */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Example font family */
+    color: #333;
+    position: relative;
+    /* Set the position to relative */
+    top: -20px;
+}
+
+label {
+    display: block;
+    margin: 20px 0 10px;
+    font-size: 1.2em;
+    /* Adjusted font size */
+    font-weight: bold;
+    color: #333;
+    /* Text color */
+    text-transform: uppercase;
+    /* Uppercase text */
+    letter-spacing: 1px;
+    /* Letter spacing */
+    border-bottom: 2px solid #e74c3c;
+    /* Bottom border with a contrasting color */
+    padding-bottom: 5px;
+    /* Spacing between text and border */
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(197, 219, 52, 0.5);
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    /* Display as inline-block to create a bubble effect */
+    margin-bottom: 20px;
+    /* Added margin-bottom for spacing between containers */
+}
+
+.button-12 {
+    background-color: #fff;
+    border: 0 solid #e2e8f0;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    color: #0d172a;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Basier circle", -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1;
+    padding: 0.5rem 1.0rem;
+    text-align: center;
+    text-decoration: none #0d172a solid;
+    text-decoration-thickness: auto;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-12:hover {
+    background-color: #1e293b;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .button-12 {
+        font-size: 1.125rem;
+        padding: 1rem 2rem;
+    }
+}
+
+button {
+    background-color: #0d172a;
+    color: #fff;
+    width: 100px;
+    height: 38px;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    font: 1em sans-serif;
+    cursor: pointer;
+}
+
+button :hover {
+    background-color: #195cc7;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
